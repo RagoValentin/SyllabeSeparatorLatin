@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabic Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="mainContainer">
+    <div class="title">☷ Syllabic Analysis</div>
+    <div class="buttonContainer">
+        <label class="customFileInput" for="fileInput">Select File</label>
+        <input class="fileInput" type="file" accept=".txt" name="" id="fileInput" oninput="readFile();">
+    </div>
+    <div class="resultsContainer">
+        <div class="resultTitle">Results</div>
+        <div class="mainResult">
+            <div id="finalResult" class="finalResult">
+                    Stats
+            </div>
+        </div>
+        <div class="mainResult">
+            <div>
+            <pre id="textResult">
+Text</pre>
+            </div>
+            <div>
+                <pre id="countResult">
+Count
+                </pre>
+            </div>
+        </div>
+    </div>
+    <script src="syllabeSeparatorLatin.js"></script>
+    </div>
+</body>
+</html>
