@@ -308,7 +308,7 @@ function countType(text){
 
     totalNumber= totalNumber+incrementNumber+decreaseNumber+neutralNumber;
     let htmlResult= document.getElementById("finalResult");
-    htmlResult.innerHTML= "El número total de verso de incremento es "+incrementNumber+". El número total de versos de disminuición es "+decreaseNumber+". El número total de versos neutros es "+neutralNumber+". El número total de versos es "+totalNumber+".";
+    htmlResult.innerHTML= "Total number of 'increment' verses is "+incrementNumber+". Total number of 'decrease' verses is "+decreaseNumber+". Total number of 'neuter' verses is "+neutralNumber+". Total number of verses is "+totalNumber+".";
     
 }
 
